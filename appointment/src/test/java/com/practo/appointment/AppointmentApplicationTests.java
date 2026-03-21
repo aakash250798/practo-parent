@@ -1,4 +1,4 @@
-package com.my.practo;
+package com.practo.appointment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

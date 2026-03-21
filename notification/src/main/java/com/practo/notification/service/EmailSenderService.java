@@ -37,6 +37,7 @@ public class EmailSenderService {
             helper.setTo(toMail);
             helper.setFrom(fromMail);
             helper.setText(html, true);
+            logger.info("mail sent {}",message);
             mailSender.send(message);
 
         } catch (MessagingException e) {

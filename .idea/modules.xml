@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/practo-parent.iml" filepath="$PROJECT_DIR$/.idea/practo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appointment/practo.appointment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/appointment/practo.appointment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification/practo.notification.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification/practo.notification.main.iml" />
     </modules>
   </component>
 </project>

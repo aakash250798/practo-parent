@@ -1,4 +1,4 @@
-package com.practo.appointment.appointment;
+package com.practo.appointment;
 
 import com.practo.appointment.dto.AppointmentDTO;
 import com.practo.appointment.entity.Hospital;

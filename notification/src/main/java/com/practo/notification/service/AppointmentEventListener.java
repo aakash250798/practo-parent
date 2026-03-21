@@ -1,7 +1,7 @@
 package com.practo.notification.service;
 
 import com.practo.notification.configuration.RabbitMQConfig;
-//import com.practo.dto.AppointmentDTO;
+import com.practo.notification.dto.AppointmentDTO;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
@@ -14,8 +14,8 @@ public class AppointmentEventListener {
         this.notificationService = notificationService;
     }
 
-//    @RabbitListener(queues = RabbitMQConfig.QUEUE)
-//    public void handleAppointmentBooked(AppointmentDTO dto) {
-//        notificationService.sendAppointmentNotification(dto);
-//    }
+    @RabbitListener(queues = RabbitMQConfig.QUEUE)
+    public void handleAppointmentBooked(AppointmentDTO dto) {
+        notificationService.sendAppointmentNotification(dto);
+    }
 }
